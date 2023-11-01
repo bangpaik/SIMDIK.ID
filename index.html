@@ -2,102 +2,521 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="simdik.png">
-    <title>MAINTENANCE SIMDIK.ID</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-    <link href="style.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900' rel='stylesheet' type='text/css'>
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet"
-        type="text/css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <style>
-        body {
-            background-image: url('bg.jpg');
-            background-attachment: fixed;
-            background-size: 100% 100%;
-        }
-    </style>
+  <title>SIMDIK.ID</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <link href="assets/img/hero-img.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
 
-    <div class="site-wrapper video-background">
-        <!-- <a id="bgndVideo" class="player"
-            data-property="{videoURL:'https://www.youtube.com/watch?v=18elkqVt-PI', containment:'body', autoPlay:true, mute:true, startAt:1, stopAt: 30, quality:'small', opacity:1, }"></a> -->
+      <div class="logo">
+        <h1><a href="https://simdik.id/" style="color: #297dcc;">
+            <img src="assets/img/hero-img.png">
+            SIMDIK.ID</a></h1>
+      </div>
 
-        <div class="overlay"></div>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Beranda</a></li>
+          <li><a class="nav-link scrollto" href="#about">Tentang</a></li>
+          <li><a class="nav-link scrollto" href="#services">Layanan</a></li>
+          <li><a class="nav-link scrollto" href="#pricing">Harga</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Hubungi</a></li>
+          <!-- <li><a class="getstarted scrollto" href="#">Coba Gratis</a></li> -->
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+    </div>
+  </header>
+  <section id="hero" class="d-flex align-items-center">
 
-        <div class="site-wrapper-inner">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+          <h1 data-aos="fade-up" style="color: #297dcc;">SIMDIK.ID</h1>
+          <h2 data-aos="fade-up" data-aos-delay="400">Sistem Informasi Manajemen Integrasi Dapodik
+          </h2>
+          <div data-aos="fade-up" data-aos-delay="800">
+            <a href="#about" class="btn-get-started scrollto">Tentang</a>
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
+          <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <main id="main">
+    <section id="clients" class="clients clients">
+      <div class="container">
 
-            <div class="masthead clearfix">
-                <div class="inner">
-                    <nav>
-                        <ul class="nav masthead-nav">
-                            <li><a href="https://instagram.com/bangpaik"><i class="fa fa-instagram fa-fw"></i></a></li>
-                            <li><a href="https://twitter.com/bangpaik"><i class="fa fa-twitter fa-fw"></i></a></li>
-                            <li><a href="https://www.facebook.com/bangpaik1"><i class="fa fa-facebook fa-fw"></i></a>
-                            </li>
-                            <li><a href="mailto:bangpaik1@gmail.com"><i class="fa fa-envelope fa-fw"></i></a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
+        <div class="row">
 
-            <div class="cover-container">
-                <div class="inner cover">
-                    <img src="simdik.png" alt="SIMDIK.ID" class="img-responsive center-block" width="30%">
-                    <h1 class="cover-heading"> <i class="fa fa-clock-o fa-fw"></i>Situs Dalam Perbaikan</h1>
-                    <p class="lead">SIMDIK.ID adalah Sistem Informasi Manajemen Integrasi Dapodik yang dikembangkan oleh
-                        KADAI PANDAI.<br>Saat ini SIMDIK.ID sedang dalam perbaikan. Silahkan kembali lagi nanti.</p>
-                    <div id="clock"></div>
-                    <p class="lead"><a href="https://wa.me/6281277785227" target="_blank"
-                            class="btn btn-lg btn-default"><i class="fa fa-whatsapp whatsapp-icon"></i> Hubungi Kami</a>
-                    </p>
-                </div>
+          <div class="col-lg-2 col-md-4 col-6">
+            <img src="assets/img/hero-img.png" class="img-fluid" alt="" data-aos="zoom-in">
+          </div>
 
-                <div class="mastfoot">
-                    <div class="inner">
-                        <p>Copyright &copy; <a href="https://kadaipandai.com/" target="_blank">SIMDIK.ID - KADAI
-                                PANDAI</a></p>
-                    </div>
-                </div>
+          <div class="col-lg-2 col-md-4 col-6">
+            <img src="assets/img/hero-img.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
+          </div>
 
-            </div>
+          <div class="col-lg-2 col-md-4 col-6">
+            <img src="assets/img/hero-img.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="200">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <img src="assets/img/hero-img.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="300">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <img src="assets/img/hero-img.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="400">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <img src="assets/img/hero-img.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="500">
+          </div>
 
         </div>
+
+      </div>
+    </section>
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Tentang</h2>
+        </div>
+
+        <div class="row content">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
+            <p>
+              SIMDIK.ID adalah layanan sistem informasi manajemen integrasi dapodik yang dapat membantu sekolah dalam
+              mengelola data siswa dan PTK, persuratan sekolah, SPPD dan surat tugas, data inventaris barang, pembayaran
+              SPP, dan lain-lain.
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i> Integrasi Dapodik</li>
+              <li><i class="ri-check-double-line"></i> Digitalisasi</li>
+              <li><i class="ri-check-double-line"></i> Mudah / Cepat</li>
+              <li><i class="ri-check-double-line"></i> Fleksible </li>
+            </ul>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="300">
+            <p>
+              SIMDIK.ID siap membantu sekolah dalam mendigitalisasikan sistem sekolah
+            </p>
+            <a href="#" class="btn-learn-more">Download Proposal</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section id="counts" class="counts">
+      <div class="container">
+
+        <div class="row">
+          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-xl-start"
+            data-aos="fade-right" data-aos-delay="150">
+            <img src="assets/img/hero-img.png" alt="" class="img-fluid">
+          </div>
+
+          <!-- <div class="col-xl-7 d-flex align-items-stretch pt-4 pt-xl-0" data-aos="fade-left" data-aos-delay="300">
+            <div class="content d-flex flex-column justify-content-center">
+              <div class="row">
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="bi bi-emoji-smile"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="54532" data-purecounter-duration="1"
+                      class="purecounter"></span>
+                    <p><strong>Siswa</strong> consequuntur voluptas nostrum aliquid ipsam architecto ut.</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="bi bi-journal-richtext"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1"
+                      class="purecounter"></span>
+                    <p><strong>Sekolah</strong> adipisci atque cum quia aspernatur totam laudantium et quia dere tan
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+        </div>
+      </div>
+    </section>
+    <section id="services" class="services">
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
+          <h2>Layanan</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <div class="icon"><i class="bx bxl-dribbble"></i></div>
+              <h4 class="title"><a href="">Integrasi Dapodik</a></h4>
+              <p class="description">Master Data diintegrasikan dengan Dapodik Sekolah</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4 class="title"><a href="">Digitalisasi</a></h4>
+              <p class="description">Persuratan Sekolah didigitalisasi</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <h4 class="title"><a href="">Mudah/Cepat</a></h4>
+              <p class="description">Mudah dan Cepat dalam penggunaan</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+              <div class="icon"><i class="bx bx-world"></i></div>
+              <h4 class="title"><a href="">Fleksibel</a></h4>
+              <p class="description">Fleksibel dalam penggunaan</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- <section id="more-services" class="more-services">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 d-flex align-items-stretch">
+            <div class="card" style='background-image: url("assets/img/more-services-1.jpg");' data-aos="fade-up"
+              data-aos-delay="100">
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Lobira Duno</a></h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et
+                  dolore magna aliqua.</p>
+                <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Read More</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+            <div class="card" style='background-image: url("assets/img/more-services-2.jpg");' data-aos="fade-up"
+              data-aos-delay="200">
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Limere Radses</a></h5>
+                <p class="card-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque
+                  laudantium, totam rem.</p>
+                <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Read More</a></div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-6 d-flex align-items-stretch mt-4">
+            <div class="card" style='background-image: url("assets/img/more-services-3.jpg");' data-aos="fade-up"
+              data-aos-delay="100">
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Nive Lodo</a></h5>
+                <p class="card-text">Nemo enim ipsam voluptatem quia voluptas sit aut odit aut fugit, sed quia magni
+                  dolores.</p>
+                <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Read More</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex align-items-stretch mt-4">
+            <div class="card" style='background-image: url("assets/img/more-services-4.jpg");' data-aos="fade-up"
+              data-aos-delay="200">
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Pale Treda</a></h5>
+                <p class="card-text">Nostrum eum sed et autem dolorum perspiciatis. Magni porro quisquam laudantium
+                  voluptatem.</p>
+                <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Read More</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+
+    <!-- <section id="testimonials" class="testimonials section-bg">
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
+          <h2>SIMDIK Sekolah</h2>
+          <p>Berikut link sekolah yang menggunakan Aplikasi SIMDIK.ID</p>
+        </div>
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/hero-img.png" class="testimonial-img" alt="">
+                  <h3>SMKN 4 PAYAKUMBUH</h3>
+                  <h4>Kota Payakumbuh</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    <a href="https://simdik.smkn4pyk.sch.id/">simdik.smkn4pyk.sch.id</a>
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            
+            
+          </div>
+          <div class="swiper-pagination">
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <section id="pricing" class="pricing">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Harga</h2>
+          <p>Silahkan pilih paket yang anda inginkan</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="box" data-aos="zoom-in-right" data-aos-delay="200">
+              <h3>Free</h3>
+              <h4><sup>Rp.</sup>0<span> / Bulan</span></h4>
+              <ul>
+                <li class="na">Domain Sendiri</li>
+                <li>Integrasi Dapodik</li>
+                <li>Manajemen Data Siswa & PTK</li>
+                <li class="na">Persuratan Sekolah</li>
+                <li class="na">SPPD dan Surat Tugas</li>
+                <li class="na">Dokumen CBT</li>
+                <li class="na">Data Inventaris Barang</li>
+                <li class="na">Pembayaran SPP</li>
+                <li class="na">Support</li>
+                <li class="na">Update</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="https://wa.me/681277785227?text=Halo%20bangpaik,%20saya%20mau%20paket%20Free"
+                  class="btn-buy">Chat / Beli Sekarang</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
+            <div class="box recommended" data-aos="zoom-in" data-aos-delay="100">
+              <h3>Basic</h3>
+              <h4><sup>Rp.</sup>500.000<span> / Bulan</span></h4>
+              <ul>
+                <li>Domain Sendiri</li>
+                <li>Integrasi Dapodik</li>
+                <li>Manajemen Data Siswa & PTK</li>
+                <li>Persuratan Sekolah</li>
+                <li>SPPD dan Surat Tugas</li>
+                <li>Dokumen CBT</li>
+                <li class="na">Data Inventaris Barang</li>
+                <li class="na">Pembayaran SPP</li>
+                <li>Support</li>
+                <li>Update</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="https://wa.me/681277785227?text=Halo%20bangpaik,%20saya%20mau%20paket%20Basic"
+                  class="btn-buy">Chat / Beli Sekarang</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
+            <div class="box" data-aos="zoom-in-left" data-aos-delay="200">
+              <h3>Standar</h3>
+              <h4><sup>Rp.</sup>800.000<span> / Bulan</span></h4>
+              <ul>
+                <li>Domain Sendiri</li>
+                <li>Integrasi Dapodik</li>
+                <li>Manajemen Data Siswa & PTK</li>
+                <li>Persuratan Sekolah</li>
+                <li>SPPD dan Surat Tugas</li>
+                <li>Dokumen CBT</li>
+                <li>Data Inventaris Barang</li>
+                <li>Pembayaran SPP</li>
+                <li>Support</li>
+                <li>Update</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="https://wa.me/681277785227?text=Halo%20bangpaik,%20saya%20mau%20paket%20Standar"
+                  class="btn-buy">Chat / Beli Sekarang</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section id="faq" class="faq">
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
+          <h2>Frequently Asked Questions</h2>
+        </div>
+        <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-5">
+            <i class="ri-question-line"></i>
+            <h4>Non consectetur a erat nam at lectus urna duis?</h4>
+          </div>
+          <div class="col-lg-7">
+            <p>
+              Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida.
+              Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+            </p>
+          </div>
+        </div>
+        <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-5">
+            <i class="ri-question-line"></i>
+            <h4>Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</h4>
+          </div>
+          <div class="col-lg-7">
+            <p>
+              Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec
+              ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit
+              ullamcorper dignissim.
+            </p>
+          </div>
+        </div>
+        <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-lg-5">
+            <i class="ri-question-line"></i>
+            <h4>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?</h4>
+          </div>
+          <div class="col-lg-7">
+            <p>
+              Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum
+              integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt.
+              Lectus urna duis convallis convallis tellus.
+            </p>
+          </div>
+        </div>
+        <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+          <div class="col-lg-5">
+            <i class="ri-question-line"></i>
+            <h4>Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</h4>
+          </div>
+          <div class="col-lg-7">
+            <p>
+              Aperiam itaque sit optio et deleniti eos nihil quidem cumque. Voluptas dolorum accusantium sunt sit enim.
+              Provident consequuntur quam aut reiciendis qui rerum dolorem sit odio. Repellat assumenda soluta sunt
+              pariatur error doloribus fuga.
+            </p>
+          </div>
+        </div>
+        <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="500">
+          <div class="col-lg-5">
+            <i class="ri-question-line"></i>
+            <h4>Tempus quam pellentesque nec nam aliquam sem et tortor consequat?</h4>
+          </div>
+          <div class="col-lg-7">
+            <p>
+              Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel
+              risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida
+              quis blandit turpis cursus in
+            </p>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
+          <h2>Hubungi</h2>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="contact-about">
+              <h3>SIMDIK.ID</h3>
+              <p>Layanan Sistem Informasi Manajemen Integrasi Dapodik</p>
+              <div class="social-links">
+                <a href="https://twitter.com/bangpaik" class="twitter"><i class="bi bi-twitter"></i></a>
+                <a href="https://facebook.com/bangpaik" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="https://instagram.com/bangpaik" class="instagram"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-6 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="info">
+              <div>
+                <i class="ri-map-pin-line"></i>
+                <p>Payakumbuh<br>Sumatera Barat, Indonesia</p>
+              </div>
+              <div>
+                <i class="ri-mail-send-line"></i>
+                <p>support@simdik.id</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer id="footer">
+    <div class="container">
+      <div class="row d-flex align-items-center">
+        <div class="col-lg-6 text-lg-left text-center">
+          <div class="copyright">
+            &copy; Copyright <strong>SIMDIK.ID</strong>. All Rights Reserved
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">
+            <a href="#hero" class="scrollto">Beranda</a>
+            <a href="#about" class="scrollto">Tentang</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Use</a>
+          </nav>
+        </div>
+      </div>
     </div>
-
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-
-    <script src="js/device.min.js"></script>
-    <script src="js/jquery.mb.YTPlayer.js"></script>
-    <script src="js/jquery.countdown.min.js"></script>
-    <script src="js/custom.js"></script>
-
-    <script>
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-        ga('create', 'UA-1057679-2', 'auto');
-        ga('send', 'pageview');
-    </script>
+  </footer>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/js/main.js"></script>
 
 </body>
 
